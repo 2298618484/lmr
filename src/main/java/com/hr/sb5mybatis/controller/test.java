@@ -23,6 +23,7 @@ public class test {
         System.out.println("lhl");
         System.out.println("lhl");
         System.out.println("lhl");
+
         List<Person> list = ps.queryAll();
         ModelAndView view = new ModelAndView("/list");
         view.addObject("list",list);
