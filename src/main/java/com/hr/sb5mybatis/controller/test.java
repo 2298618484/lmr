@@ -21,6 +21,8 @@ public class test {
     @RequestMapping("/queryAll")
     public ModelAndView queryAll(){
         System.out.println("lhl");
+        System.out.println("lhl");
+        System.out.println("lhl");
         List<Person> list = ps.queryAll();
         ModelAndView view = new ModelAndView("/list");
         view.addObject("list",list);
