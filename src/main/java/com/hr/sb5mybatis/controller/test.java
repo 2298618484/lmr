@@ -20,6 +20,7 @@ public class test {
 
     @RequestMapping("/queryAll")
     public ModelAndView queryAll(){
+        System.out.println("222");
         System.out.println("111");
         List<Person> list = ps.queryAll();
         ModelAndView view = new ModelAndView("/list");
