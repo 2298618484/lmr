@@ -22,6 +22,7 @@ public class test {
     public ModelAndView queryAll(){
         System.out.println("lhl");
         System.out.println("123");
+        System.out.println("789");
         List<Person> list = ps.queryAll();
         ModelAndView view = new ModelAndView("/list");
         view.addObject("list",list);
