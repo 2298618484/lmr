@@ -24,6 +24,7 @@ public class test {
         System.out.println("123");
         System.out.println("456");
         System.out.println("789");
+        System.out.println("***");
         System.out.println("---");
         List<Person> list = ps.queryAll();
         ModelAndView view = new ModelAndView("/list");
